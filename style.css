@@ -1,0 +1,61 @@
+.clockface {
+  margin-top: 0;
+  margin-bottom: 14%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clockface1 {
+  background-color: rgb(226, 226, 119);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2); 
+  margin: 10% 25% 0 25%;
+}
+
+.hour {
+  height: 10vh;
+  width: 10vw;
+  margin: 5px;
+  color: black;
+}
+
+#date {
+  padding-top: 60px;
+  margin-right: auto;
+  margin-left: auto; 
+  font-weight: bolder;
+  font-size: 4vw;
+  text-align: center;
+}
+
+#clock {
+  width: 100%;
+  color: black;
+  font-size: 9vw;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .clockface {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .hour {
+    height: 8vh;
+    width: 8vw;
+    margin: 3px;
+  }
+  
+  #date {
+    font-size: 2vw;
+  }
+  
+  #clock {
+    font-size: 7vw;
+  }
+}
