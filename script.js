@@ -30,6 +30,6 @@ function clock() {
     }, 1000); 
   }
   
-  clock(); // Start the clock and auto-reload
+  clock();
   
   
